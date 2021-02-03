@@ -22,9 +22,9 @@ more intuitive . For the final step I changed the **Icon** of the application to
 
 ![Capture](https://user-images.githubusercontent.com/45829623/106762859-ea4f4080-663e-11eb-92d8-3f6655263474.PNG)
 
-# Demo of the application!
+# Demo of the application
 
-[Lab1](https://user-images.githubusercontent.com/45829623/106762901-faffb680-663e-11eb-8785-a8462d4d6828.gif)
+![Lab1](https://user-images.githubusercontent.com/45829623/106762901-faffb680-663e-11eb-8785-a8462d4d6828.gif)
 
 # Project Status : Finished 
 
