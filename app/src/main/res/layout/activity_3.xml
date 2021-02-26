@@ -21,6 +21,14 @@
         android:layout_marginTop="60dp"
         />
 
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="112dp"
+        android:layout_height="232dp"
+        app:srcCompat="@mipmap/image"
+        android:layout_marginTop="560dp"
+        android:layout_marginLeft="150dp"/>
+
 
     <TextView
         android:id="@+id/title"
@@ -37,7 +45,7 @@
         android:id="@+id/desc"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Android developer"
+        android:text="Online Seller"
         android:layout_below="@id/title"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="5dp"
@@ -56,15 +64,16 @@
             android:layout_height="36dp"
             android:src="@drawable/ic_person"
             android:layout_marginLeft="70dp"
+            android:layout_marginTop="160dp"
             />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="My Profile"
+            android:text="Profile Details"
             android:textSize="18sp"
             android:textColor="@color/black"
             android:layout_marginLeft="20dp"
-            android:layout_marginTop="5dp"
+            android:layout_marginTop="165dp"
             />
     </LinearLayout>
 
@@ -79,17 +88,18 @@
         <ImageView
             android:layout_width="36dp"
             android:layout_height="36dp"
-            android:src="@drawable/ic_person"
+            android:src="@drawable/ic_settings"
             android:layout_marginLeft="70dp"
+            android:layout_marginTop="30dp"
             />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="My Profile"
+            android:text="Settings"
             android:textSize="18sp"
             android:textColor="@color/black"
             android:layout_marginLeft="20dp"
-            android:layout_marginTop="5dp"
+            android:layout_marginTop="35dp"
             />
     </LinearLayout>
 
@@ -104,17 +114,18 @@
         <ImageView
             android:layout_width="36dp"
             android:layout_height="36dp"
-            android:src="@drawable/ic_person"
+            android:src="@drawable/ic_money"
             android:layout_marginLeft="70dp"
+            android:layout_marginTop="30dp"
             />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="My Profile"
+            android:text="My Posts"
             android:textSize="18sp"
             android:textColor="@color/black"
             android:layout_marginLeft="20dp"
-            android:layout_marginTop="5dp"
+            android:layout_marginTop="35dp"
             />
     </LinearLayout>
 

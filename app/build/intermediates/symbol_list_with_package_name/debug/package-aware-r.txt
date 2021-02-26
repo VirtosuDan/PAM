@@ -1553,11 +1553,13 @@ drawable ic_android
 drawable ic_audio
 drawable ic_launcher_background
 drawable ic_launcher_foreground
+drawable ic_money
 drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
 drawable ic_person
+drawable ic_settings
 drawable ic_sun
 drawable lexus
 drawable material_ic_calendar_black_24dp
