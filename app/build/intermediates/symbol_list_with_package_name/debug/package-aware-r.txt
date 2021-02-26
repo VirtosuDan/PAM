@@ -1668,7 +1668,6 @@ id blocking
 id bottom
 id bounce
 id btn
-id btn2
 id buttonPanel
 id cache_measures
 id cancel_button
@@ -1778,7 +1777,6 @@ id listMode
 id list_item
 id masked
 id message
-id message2
 id middle
 id mini
 id month_grid
@@ -1788,6 +1786,7 @@ id month_navigation_next
 id month_navigation_previous
 id month_title
 id motion_base
+id msgtxt
 id mtrl_calendar_day_selector_frame
 id mtrl_calendar_days_of_week
 id mtrl_calendar_frame
@@ -2086,8 +2085,6 @@ layout text_view_with_line_height_from_style
 layout text_view_with_theme_line_height
 layout text_view_without_line_height
 mipmap ic_launcher
-mipmap ic_launcher_background
-mipmap ic_launcher_foreground
 mipmap ic_launcher_round
 plurals mtrl_badge_content_description
 string abc_action_bar_home_description
