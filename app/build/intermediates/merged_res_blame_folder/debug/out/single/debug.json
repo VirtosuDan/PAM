@@ -320,6 +320,10 @@
         "source": "C:\\Users\\Dacian\\Desktop\\Pr. aplicatiilor mobile\\Lab2Test\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_background.png"
     },
     {
+        "merged": "C:\\Users\\Dacian\\Desktop\\Pr. aplicatiilor mobile\\Lab2Test\\app\\build\\intermediates\\res\\merged\\debug\\drawable_cos.png.flat",
+        "source": "C:\\Users\\Dacian\\Desktop\\Pr. aplicatiilor mobile\\Lab2Test\\app\\src\\main\\res\\drawable\\cos.png"
+    },
+    {
         "merged": "C:\\Users\\Dacian\\Desktop\\Pr. aplicatiilor mobile\\Lab2Test\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_settings.png.flat",
         "source": "C:\\Users\\Dacian\\Desktop\\Pr. aplicatiilor mobile\\Lab2Test\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_settings.png"
     },

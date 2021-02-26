@@ -10,7 +10,8 @@
     <LinearLayout
         android:layout_width="341dp"
         android:layout_height="match_parent"
-        android:background="@color/profle_background"></LinearLayout>
+        android:background="@color/profle_background">
+    </LinearLayout>
 
     <de.hdodenhof.circleimageview.CircleImageView
         android:id="@+id/imageview_profile"
@@ -19,6 +20,7 @@
         android:src="@drawable/profile"
         android:layout_marginLeft="100dp"
         android:layout_marginTop="80dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         />
 
     <ImageView
@@ -27,7 +29,11 @@
         android:layout_height="232dp"
         app:srcCompat="@mipmap/image"
         android:layout_marginTop="190dp"
-        android:layout_marginLeft="500dp"/>
+        android:layout_marginLeft="500dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
 
     <TextView
         android:id="@+id/title"
@@ -39,6 +45,8 @@
         android:layout_marginLeft="125dp"
         android:textStyle="bold"
         android:layout_marginTop="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         />
     <TextView
         android:id="@+id/desc"
@@ -49,13 +57,17 @@
         android:layout_marginTop="15dp"
         android:textColor="@color/black"
         android:layout_marginLeft="125dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         />
 
     <LinearLayout
         android:id="@+id/linear_layout_1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
 
         <ImageView
             android:layout_width="36dp"
@@ -63,6 +75,8 @@
             android:src="@drawable/ic_person"
             android:layout_marginLeft="450dp"
             android:layout_marginTop="50dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
             />
         <TextView
             android:layout_width="wrap_content"
@@ -72,6 +86,8 @@
             android:textColor="@color/black"
             android:layout_marginLeft="20dp"
             android:layout_marginTop="55dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
             />
     </LinearLayout>
 

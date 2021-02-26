@@ -19,6 +19,8 @@
         android:src="@drawable/profile"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="60dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         />
 
     <ImageView
@@ -27,7 +29,8 @@
         android:layout_height="232dp"
         app:srcCompat="@mipmap/image"
         android:layout_marginTop="560dp"
-        android:layout_marginLeft="150dp"/>
+        android:layout_marginLeft="150dp"
+        android:layout_centerHorizontal="true"/>
 
 
     <TextView
@@ -40,6 +43,8 @@
         android:layout_centerHorizontal="true"
         android:textStyle="bold"
         android:layout_marginTop="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         />
     <TextView
         android:id="@+id/desc"
@@ -50,6 +55,8 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="5dp"
         android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         />
 
     <LinearLayout
@@ -57,7 +64,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:layout_below="@+id/desc">
+        android:layout_below="@+id/desc"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
 
         <ImageView
             android:layout_width="36dp"
@@ -65,6 +74,9 @@
             android:src="@drawable/ic_person"
             android:layout_marginLeft="70dp"
             android:layout_marginTop="160dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+
             />
         <TextView
             android:layout_width="wrap_content"
@@ -74,6 +86,10 @@
             android:textColor="@color/black"
             android:layout_marginLeft="20dp"
             android:layout_marginTop="165dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_centerHorizontal="true"
+
             />
     </LinearLayout>
 
@@ -83,7 +99,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:layout_below="@+id/linear_layout_1">
+        android:layout_below="@+id/linear_layout_1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
 
         <ImageView
             android:layout_width="36dp"
@@ -91,6 +109,8 @@
             android:src="@drawable/ic_settings"
             android:layout_marginLeft="70dp"
             android:layout_marginTop="30dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
             />
         <TextView
             android:layout_width="wrap_content"

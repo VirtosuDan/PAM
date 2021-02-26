@@ -7,20 +7,44 @@
     android:background="@drawable/bg"
     tools:context=".Activity4">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical"
-        android:gravity="center"
-        >
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/cos"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/cos"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="230dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
 
         <TextView
             android:id="@+id/text2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Wish List Screen"
-            android:textSize="22sp" />
+            android:textSize="22sp"
+            android:layout_marginTop="150dp"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="@id/cos"
+            app:layout_constraintStart_toStartOf="@id/cos"
+            app:layout_constraintTop_toTopOf="@id/cos"
+            />
 
-    </LinearLayout>
+        <TextView
+            android:id="@+id/text3"
+            android:layout_width="347dp"
+            android:layout_height="131dp"
+            android:layout_marginTop="200dp"
+            android:text="      Ooops... Nothing to show\nChoose a product from main page"
+            android:textColor="@color/black"
+            android:textSize="22sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
