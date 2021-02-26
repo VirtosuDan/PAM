@@ -1,4 +1,4 @@
-com.example.pam
+com.example.lab2test
 anim abc_fade_in
 anim abc_fade_out
 anim abc_grow_fade_in_from_bottom
@@ -201,6 +201,10 @@ attr chipStrokeWidth
 attr chipStyle
 attr chipSurfaceColor
 attr circleRadius
+attr civ_border_color
+attr civ_border_overlay
+attr civ_border_width
+attr civ_circle_background_color
 attr clickAction
 attr closeIcon
 attr closeIconEnabled
@@ -1073,6 +1077,7 @@ color primary_text_default_material_dark
 color primary_text_default_material_light
 color primary_text_disabled_material_dark
 color primary_text_disabled_material_light
+color profle_background
 color purple_200
 color purple_500
 color purple_700
@@ -1526,8 +1531,10 @@ drawable abc_textfield_search_activated_mtrl_alpha
 drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
+drawable apart
 drawable avd_hide_password
 drawable avd_show_password
+drawable bg
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
 drawable btn_checkbox_unchecked_mtrl
@@ -1542,12 +1549,17 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable ic_android
+drawable ic_audio
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
+drawable ic_person
+drawable ic_sun
+drawable lexus
 drawable material_ic_calendar_black_24dp
 drawable material_ic_clear_black_24dp
 drawable material_ic_edit_black_24dp
@@ -1555,6 +1567,7 @@ drawable material_ic_keyboard_arrow_left_black_24dp
 drawable material_ic_keyboard_arrow_right_black_24dp
 drawable material_ic_menu_arrow_down_black_24dp
 drawable material_ic_menu_arrow_up_black_24dp
+drawable mob
 drawable mtrl_dialog_background
 drawable mtrl_dropdown_arrow
 drawable mtrl_ic_arrow_drop_down
@@ -1577,6 +1590,8 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable poza
+drawable profile
 drawable test_custom_background
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
@@ -1667,8 +1682,8 @@ id beginning
 id blocking
 id bottom
 id bounce
-id btn
-id btn2
+id button2
+id button3
 id buttonPanel
 id cache_measures
 id cancel_button
@@ -1705,6 +1720,7 @@ id decor_content_parent
 id default_activity_button
 id deltaRelative
 id dependency_ordering
+id desc
 id design_bottom_sheet
 id design_menu_item_action_area
 id design_menu_item_action_area_stub
@@ -1761,6 +1777,9 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
+id imageView
+id image_view
+id imageview_profile
 id info
 id invisible
 id italic
@@ -1774,11 +1793,14 @@ id left
 id line1
 id line3
 id linear
+id linear_layout_1
+id linear_layout_2
+id linear_layout_3
 id listMode
 id list_item
+id login_btn
 id masked
 id message
-id message2
 id middle
 id mini
 id month_grid
@@ -1827,6 +1849,7 @@ id parent
 id parentPanel
 id parentRelative
 id parent_matrix
+id password_et
 id password_toggle
 id path
 id pathRelative
@@ -1840,6 +1863,7 @@ id progress_horizontal
 id radio
 id ratio
 id rectangles
+id recycler_view
 id reverseSawtooth
 id right
 id right_icon
@@ -1913,13 +1937,17 @@ id test_checkbox_app_button_tint
 id test_radiobutton_android_button_tint
 id test_radiobutton_app_button_tint
 id text
+id text1
 id text2
+id text3
 id textEnd
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id text_input_end_icon
 id text_input_start_icon
+id text_view_1
+id text_view_2
 id textinput_counter
 id textinput_error
 id textinput_helper_text
@@ -1942,12 +1970,12 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
-id txt
 id unchecked
 id uniform
 id unlabeled
 id up
 id useLogo
+id username_et
 id view_offset_helper
 id visible
 id withText
@@ -2015,8 +2043,10 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
-layout activity_2
+layout activity_3
+layout activity_4
 layout activity_main
+layout activity_second
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
@@ -2033,6 +2063,7 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
+layout example_item
 layout mtrl_alert_dialog
 layout mtrl_alert_dialog_actions
 layout mtrl_alert_dialog_title
@@ -2089,6 +2120,8 @@ mipmap ic_launcher
 mipmap ic_launcher_background
 mipmap ic_launcher_foreground
 mipmap ic_launcher_round
+mipmap image
+mipmap lalala
 plurals mtrl_badge_content_description
 string abc_action_bar_home_description
 string abc_action_bar_up_description
@@ -2588,6 +2621,7 @@ style Theme_Design_Light
 style Theme_Design_Light_BottomSheetDialog
 style Theme_Design_Light_NoActionBar
 style Theme_Design_NoActionBar
+style Theme_Lab2Test
 style Theme_MaterialComponents
 style Theme_MaterialComponents_BottomSheetDialog
 style Theme_MaterialComponents_Bridge
@@ -2637,7 +2671,6 @@ style Theme_MaterialComponents_Light_NoActionBar
 style Theme_MaterialComponents_Light_NoActionBar_Bridge
 style Theme_MaterialComponents_NoActionBar
 style Theme_MaterialComponents_NoActionBar_Bridge
-style Theme_PAM
 style ThemeOverlay_AppCompat
 style ThemeOverlay_AppCompat_ActionBar
 style ThemeOverlay_AppCompat_Dark
@@ -2895,6 +2928,7 @@ styleable ButtonBarLayout allowStacking
 styleable CardView android_minWidth android_minHeight cardBackgroundColor cardCornerRadius cardElevation cardMaxElevation cardPreventCornerOverlap cardUseCompatPadding contentPadding contentPaddingBottom contentPaddingLeft contentPaddingRight contentPaddingTop
 styleable Chip android_textAppearance android_textColor android_ellipsize android_maxWidth android_text android_checkable checkedIcon checkedIconEnabled checkedIconTint checkedIconVisible chipBackgroundColor chipCornerRadius chipEndPadding chipIcon chipIconEnabled chipIconSize chipIconTint chipIconVisible chipMinHeight chipMinTouchTargetSize chipStartPadding chipStrokeColor chipStrokeWidth chipSurfaceColor closeIcon closeIconEnabled closeIconEndPadding closeIconSize closeIconStartPadding closeIconTint closeIconVisible ensureMinTouchTargetSize hideMotionSpec iconEndPadding iconStartPadding rippleColor shapeAppearance shapeAppearanceOverlay showMotionSpec textEndPadding textStartPadding
 styleable ChipGroup checkedChip chipSpacing chipSpacingHorizontal chipSpacingVertical selectionRequired singleLine singleSelection
+styleable CircleImageView civ_border_color civ_border_overlay civ_border_width civ_circle_background_color
 styleable CollapsingToolbarLayout collapsedTitleGravity collapsedTitleTextAppearance contentScrim expandedTitleGravity expandedTitleMargin expandedTitleMarginBottom expandedTitleMarginEnd expandedTitleMarginStart expandedTitleMarginTop expandedTitleTextAppearance maxLines scrimAnimationDuration scrimVisibleHeightTrigger statusBarScrim title titleEnabled toolbarId
 styleable CollapsingToolbarLayout_Layout layout_collapseMode layout_collapseParallaxMultiplier
 styleable ColorStateListItem android_color android_alpha alpha

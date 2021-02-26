@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.pam"
+    package="com.example.lab2test"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -17,9 +17,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:testOnly="true"
-        android:theme="@style/Theme.PAM" >
-        <activity android:name="com.example.pam.Activity2" />
-        <activity android:name="com.example.pam.MainActivity" >
+        android:theme="@style/Theme.Lab2Test" >
+        <activity android:name="com.example.lab2test.Activity4" />
+        <activity android:name="com.example.lab2test.Activity3" />
+        <activity android:name="com.example.lab2test.SecondActivity" />
+        <activity android:name="com.example.lab2test.MainActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

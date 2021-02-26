@@ -67,8 +67,7 @@
                                           <PersistentState>
                                             <option name="values">
                                               <map>
-                                                <entry key="imagePath" value="C:\Users\Dacian\Desktop\Pr. aplicatiilor mobile\tech-tip-background.jpg" />
-                                                <entry key="scalingPercent" value="135" />
+                                                <entry key="imagePath" value="C:\Users\Dacian\Desktop\Pr. aplicatiilor mobile\backroung.jpg" />
                                               </map>
                                             </option>
                                           </PersistentState>
@@ -91,8 +90,8 @@
                                             <option name="values">
                                               <map>
                                                 <entry key="color" value="000000" />
-                                                <entry key="imagePath" value="C:\Users\Dacian\Desktop\Pr. aplicatiilor mobile\LOGO_UTM_2-1030x541.jpg" />
-                                                <entry key="scalingPercent" value="59" />
+                                                <entry key="imagePath" value="C:\Users\Dacian\Desktop\Pr. aplicatiilor mobile\375-3753199_nazi-triskelion-777-hd-png-download.png" />
+                                                <entry key="scalingPercent" value="72" />
                                               </map>
                                             </option>
                                           </PersistentState>
@@ -288,6 +287,44 @@
                                 </PersistentState>
                               </value>
                             </entry>
+                          </map>
+                        </option>
+                      </PersistentState>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </PersistentState>
+          </value>
+        </entry>
+        <entry key="vectorWizard">
+          <value>
+            <PersistentState>
+              <option name="children">
+                <map>
+                  <entry key="vectorAssetStep">
+                    <value>
+                      <PersistentState>
+                        <option name="children">
+                          <map>
+                            <entry key="clipartAsset">
+                              <value>
+                                <PersistentState>
+                                  <option name="values">
+                                    <map>
+                                      <entry key="url" value="file:/$USER_HOME$/AppData/Local/Android/Sdk/icons/material/materialicons/person/baseline_person_24.xml" />
+                                    </map>
+                                  </option>
+                                </PersistentState>
+                              </value>
+                            </entry>
+                          </map>
+                        </option>
+                        <option name="values">
+                          <map>
+                            <entry key="color" value="484b64" />
+                            <entry key="outputName" value="ic_person" />
+                            <entry key="sourceFile" value="C:\Users\Dacian\Desktop\Pr. aplicatiilor mobile\Lab2Test" />
                           </map>
                         </option>
                       </PersistentState>

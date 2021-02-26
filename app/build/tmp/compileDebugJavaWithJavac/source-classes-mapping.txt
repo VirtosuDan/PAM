@@ -1,2 +1,2 @@
-com/example/pam/BuildConfig.java
- com.example.pam.BuildConfig
+com/example/lab2test/BuildConfig.java
+ com.example.lab2test.BuildConfig
