@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -10,7 +10,9 @@
     <LinearLayout
         android:layout_width="341dp"
         android:layout_height="match_parent"
-        android:background="@color/profle_background">
+        android:background="@color/profle_background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
     </LinearLayout>
 
     <de.hdodenhof.circleimageview.CircleImageView
@@ -21,6 +23,7 @@
         android:layout_marginLeft="100dp"
         android:layout_marginTop="80dp"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         />
 
     <ImageView
@@ -97,7 +100,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:layout_below="@+id/linear_layout_1">
+        android:layout_below="@+id/linear_layout_1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
 
         <ImageView
             android:layout_width="36dp"
@@ -123,7 +128,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:layout_below="@+id/linear_layout_2">
+        android:layout_below="@+id/linear_layout_2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
 
         <ImageView
             android:layout_width="36dp"
@@ -145,4 +152,4 @@
 
 
 
-</RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
